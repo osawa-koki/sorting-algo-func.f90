@@ -9,6 +9,9 @@ EXE = $(BUILD_DIR)/main
 
 all: $(EXE)
 
+debug: FC += -g
+debug: all
+
 $(EXE): $(OBJ)
 	@mkdir -p $(@D)
 	$(FC) -o $@ $^
