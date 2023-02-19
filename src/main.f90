@@ -53,4 +53,12 @@ program main
     call heap_sort(numbers(1:n), n)
     write(*,*) title, ': ', numbers
 
+    title = 'Shuffled'
+    call shuffle(numbers(1:n), n)
+    write(*,*) title, ': ', numbers
+
+    title = 'Shell Sort'
+    call shell_sort(numbers(1:n), n)
+    write(*,*) title, ': ', numbers
+
 end program main
