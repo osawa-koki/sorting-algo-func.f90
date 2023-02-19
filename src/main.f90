@@ -45,4 +45,12 @@ program main
     call quick_sort(numbers(1:n), n)
     write(*,*) title, ': ', numbers
 
+    title = 'Shuffled'
+    call shuffle(numbers(1:n), n)
+    write(*,*) title, ': ', numbers
+
+    title = 'Heap Sort'
+    call heap_sort(numbers(1:n), n)
+    write(*,*) title, ': ', numbers
+
 end program main
