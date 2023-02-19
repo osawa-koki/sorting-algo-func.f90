@@ -29,4 +29,12 @@ program main
     call insertion_sort(numbers(1:n), n)
     write(*,*) title, ': ', numbers
 
+    title = 'Shuffled'
+    call shuffle(numbers(1:n), n)
+    write(*,*) title, ': ', numbers
+
+    title = 'Merge Sort'
+    call merge_sort(numbers(1:n), n)
+    write(*,*) title, ': ', numbers
+
 end program main
