@@ -2,7 +2,6 @@
 subroutine merge_sort(ary, n)
     integer, intent(inout) :: ary(*)
     integer, intent(in) :: n
-
     integer :: i, j, k, l, r, m
     integer, dimension(n) :: tmp
 
