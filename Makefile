@@ -21,4 +21,5 @@ $(BUILD_DIR)/%.o: $(SRC_DIR)/%.f90
 	$(FC) -c -o $@ $<
 
 clean:
-	@rm -rf $(BUILD_DIR)
+	@find $(BUILD_DIR) ! -name '.gitkeep' -type f -exec rm -f {} +
+	@rm -rf $(BUILD_DIR)/*
