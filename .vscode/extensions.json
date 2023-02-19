@@ -4,6 +4,7 @@
     "github.copilot",
     "mhutchie.git-graph",
     "editorconfig.editorconfig",
-    "fortran-lang.linter-gfortran"
+    "fortran-lang.linter-gfortran",
+    "ms-vscode.makefile-tools"
   ]
 }
