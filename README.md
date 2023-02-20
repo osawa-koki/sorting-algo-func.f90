@@ -4,24 +4,11 @@
 
 ## 実行方法
 
-以下のコマンドでソースコードをコンパイルし、実行ファイルを生成します。  
+以下のコマンドを実行します。  
 
 ```shell
-make
-```
-
-`./bin/make`ファイルが生成されます。  
-
-```shell
-./bin/make
-```
-
----
-
-コンパイルされたファイルを削除する場合は以下のコマンドを実行します。  
-
-```shell
-make clean
+docker build -t sorting-algo-func-f90 .
+docker run -it --rm --name my-sorting-algo-func-f90 sorting-algo-func-f90
 ```
 
 ## 実装したアルゴリズム
