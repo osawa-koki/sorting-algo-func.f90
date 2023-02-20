@@ -1,0 +1,6 @@
+.devcontainer/
+.vscode/
+.editorconfig
+.gitignore
+LICENSE
+README.md
